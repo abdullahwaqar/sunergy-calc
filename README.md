@@ -40,9 +40,9 @@ import {
 
 // Example 1: Sun position and irradiance at NY, August 15, 2025, 16:00 UTC
 const sun = computeSolarPotential(
-40.7128, // latitude
--74.0060, // longitude
-new Date(Date.UTC(2025, 7, 15, 16, 0, 0)) // UTC date/time
+    40.7128, // latitude
+    -74.0060, // longitude
+    new Date(Date.UTC(2025, 7, 15, 16, 0, 0)) // UTC date/time
 );
 
 console.log(sun);
