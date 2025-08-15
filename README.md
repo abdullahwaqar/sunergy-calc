@@ -17,9 +17,21 @@ TypeScript library for geometry-based solar potential, irradiance, and solar PV 
 
 ---
 
+## Formulas
+
+| Step        | Equation                                            |
+| ----------- | --------------------------------------------------- |
+| Declination | δ = 23.45 × sin[(360/365) × (n − 81)]               |
+| Hour angle  | H = 15 × (solar-time-hours − 12)                    |
+| Altitude    | sin(α) = sin(δ) sin(φ) + cos(δ) cos(φ) cos(H)       |
+| Azimuth     | sin(Az) = cos(δ) sin(H) / cos(α)                    |
+| Irradiance  | I = I₀ × sin(α) (for horizontal surface, clear sky) |
+
+---
+
 ## Installation
 
-``` bash
+```bash
 npm install sunergy-calc
 
 # or
