@@ -1,0 +1,60 @@
+{
+    "name": "sunergy-calc",
+    "version": "1.0.0",
+    "description": "TypeScript library for geometry-based solar potential, irradiance, and solar PV energy calculations without external APIs.",
+    "license": "MIT",
+    "author": "Abdullah Waqar",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/abdullahwaqar/sunergy-calc.git"
+    },
+    "keywords": [
+        "solar",
+        "photovoltaic",
+        "solar energy",
+        "solar potential",
+        "solar irradiance",
+        "pv",
+        "pv system",
+        "solar panel",
+        "sun position",
+        "typescript",
+        "geometry",
+        "solar power",
+        "renewable energy",
+        "engineering",
+        "math",
+        "PV output calculation",
+        "energy modeling",
+        "cleantech",
+        "no API",
+        "solar insolation"
+    ],
+    "type": "module",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./lib/index.js",
+            "require": "./lib/index.js"
+        }
+    },
+    "files": [
+        "lib/**/*"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf lib",
+        "prepublishOnly": "npm run clean && npm run build",
+        "dev": "ts-node --esm examples/artnet-demo.ts"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.0",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.2.1",
+        "jest": "^30.0.5",
+        "ts-jest": "^29.4.1",
+        "ts-node": "^10.9.2",
+        "typescript": "5.9"
+    }
+}
