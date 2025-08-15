@@ -1,6 +1,6 @@
 {
     "name": "sunergy-calc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript library for geometry-based solar potential, irradiance, and solar PV energy calculations without external APIs.",
     "license": "MIT",
     "author": "Abdullah Waqar",
