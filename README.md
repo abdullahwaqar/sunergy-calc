@@ -140,4 +140,19 @@ npx jest
 
 ---
 
-_Sunergy-calc is not affiliated with or endorsed by pveducation.org, palmetto.com, Sunbase, or EcoFlow. Reference links are for documentation and scientific transparency only._
+## See Also
+
+### Python Version
+
+Looking for a pure Python package for solar geometry and PV energy calculations?
+
+Check out **pysunergy-calc**—the same formulas and apis, adapted for Python:
+
+- **PyPI package:** [pysunergy-calc](https://pypi.org/project/pysunergy-calc/)
+- **Source repo:** [https://github.com/abdullahwaqar/pysunergy_calc](https://github.com/abdullahwaqar/pysunergy_calc)
+
+Use this version if you want easy integration with data science, simulation, or Python-based engineering workflows.
+
+---
+
+_sunergy-calc is not affiliated with or endorsed by pveducation.org, palmetto.com, Sunbase, or EcoFlow. Reference links are for documentation and scientific transparency only._
