@@ -3,6 +3,15 @@
  * Energy formula: https://www.sunbasedata.com/blog/how-to-calculate-solar-panel-output
  * Methodology: https://palmetto.com/solar/how-much-energy-does-a-solar-panel-produce
  * General guide: https://www.ecoflow.com/us/blog/how-to-calculate-solar-panel-output
+ *
+ *
+ | Step        | Equation                                            |
+ | ----------- | --------------------------------------------------- |
+ | Declination | δ = 23.45 × sin[(360/365) × (n − 81)]               |
+ | Hour angle  | H = 15 × (solar-time-hours − 12)                    |
+ | Altitude    | sin(α) = sin(δ) sin(φ) + cos(δ) cos(φ) cos(H)       |
+ | Azimuth     | sin(Az) = cos(δ) sin(H) / cos(α)                    |
+ | Irradiance  | I = I₀ × sin(α) (for horizontal surface, clear sky) |
  */
 /**
  * All angles are in degrees
